@@ -1,0 +1,8 @@
+#tag layout_block("BODY_BLOCK_1")
+    This is a BLOCK 1 from main.
+#end
+#tag layout_block("BODY_BLOCK_2")
+    <font color="red">requestURI =  ${request.requestURI} </font>
+#end
+
+#include("/includes/layout.jetx")

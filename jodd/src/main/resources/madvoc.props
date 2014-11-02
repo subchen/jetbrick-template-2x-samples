@@ -1,0 +1,6 @@
+[jetbrick.template.web.jodd.JetTemplateResult]
+contentType=text/html; charset=UTF-8
+
+[automagicMadvocConfigurator]
+includedEntries=jodd.*,jetbrick.template.web.jodd.*,jetbrick.template.samples.jodd.action.*
+

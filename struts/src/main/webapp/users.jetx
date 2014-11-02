@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jetbrick-template samples</title>
+</head>
+
+<body>
+
+<table border="1" width="600">
+  <tr>
+    <td>ID</td>
+    <td>姓名</td>
+    <td>邮箱</td>
+    <td>书籍</td>
+  </tr>
+  #for(UserInfo user: userlist)
+  <tr>
+    <td>${user.id}</td>
+    <td>${user.name}</td>
+    <td>${user.email}</td>
+    <td><a href="books?author=${user.id}">书籍列表</a></td>
+  </tr>
+  #end
+</table>
+
+#include("includes/footer.jetx")
+</body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="true" />
+
+	<package name="default" namespace="/" extends="jetx-default">
+<!--
+        <result-types>
+            <result-type name="jetx" class="jetbrick.template.web.struts.JetTemplateResult" />
+        </result-types>
+-->
+		<default-action-ref name="index" />
+
+		<action name="index" class="jetbrick.template.samples.struts.action.IndexAction">
+			<result type="jetx">/index.jetx</result>
+		</action>
+		<action name="users" class="jetbrick.template.samples.struts.action.UsersAction">
+			<result type="jetx">/users.jetx</result>
+		</action>
+		<action name="books" class="jetbrick.template.samples.struts.action.BooksAction">
+			<result type="jetx">/books.jetx</result>
+		</action>
+	</package>
+
+</struts>
