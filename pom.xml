@@ -10,7 +10,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>jetbrick-template-2x-samples-parent</artifactId>
+    <artifactId>jetx-2x-samples-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -23,7 +23,7 @@
     </modules>
 
     <properties>
-        <jetx.version>2.0-SNAPSHOT</jetx.version>
+        <jetx.version>2.0</jetx.version>
     </properties>
 
     <build>
