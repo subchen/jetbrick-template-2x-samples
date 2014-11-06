@@ -13,7 +13,7 @@
 #tag layout_block_default("MENU_LIST")
 <ul>
     <li><a href="request.jetx">request 范例</a></li>
-    <li><a href="layout.jetx">layout 范例</a></li>
+    <li><a href="layout-test.jetx">layout 范例</a></li>
     <li><a href="users.jetx">users 范例</a></li>
 </ul>
 #end
