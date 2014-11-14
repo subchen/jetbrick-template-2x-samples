@@ -23,7 +23,7 @@
     </modules>
 
     <properties>
-        <jetx.version>2.0</jetx.version>
+        <jetx.version>2.0.1</jetx.version>
     </properties>
 
     <build>

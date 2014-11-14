@@ -1,0 +1,7 @@
+#macro test1()
+    test1
+#end
+
+#macro test2(String s)
+    test2: ${s}
+#end

@@ -1,0 +1,7 @@
+#macro helloX(String who)
+Hello ${who}!
+#end
+
+#macro helloY(String who)
+Hello ${who.capitalize()}!
+#end
