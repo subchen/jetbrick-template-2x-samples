@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <td>序号</td>
+    <td>姓名</td>
+    <td>邮箱</td>
+  </tr>
+  #for (user : users)
+  <tr>
+    <td>${for.index}</td>
+    <td>${user.name}</td>
+    <td>${user.email}</td>
+  </tr>
+  #end
+</table>
